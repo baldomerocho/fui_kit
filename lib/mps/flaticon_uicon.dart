@@ -1,7 +1,7 @@
 
 // ignore_for_file: constant_identifier_names
 
-import 'package:fui/models/svg_icon_model.dart';
+import 'package:fui_kit/models/svg_icon_model.dart';
 
 class FUIcons {
   static const PATH = "assets/icons/";
