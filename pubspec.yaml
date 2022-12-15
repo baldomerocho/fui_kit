@@ -1,7 +1,7 @@
 name: fui_kit
 description: +450 icons SVG with 5 themes or variables
 version: 1.0.0
-homepage: datogedon.com
+homepage: https://wp.me/pd2qu8-hH
 
 environment:
   sdk: '>=2.18.4 <3.0.0'
