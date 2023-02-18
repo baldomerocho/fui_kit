@@ -4,7 +4,7 @@
 import 'package:fui_kit/models/svg_icon_model.dart';
 
 class FUIcons {
-  static const PATH = "icons/";
+  static const PATH = "assets/icons/";
   static const REGULAR_ROUNDED = '${PATH}regular/rounded/svg/fi-rr-';
   static const BOLD_ROUNDED = '${PATH}bold/rounded/svg/fi-br-';
   static const SOLID_ROUNDED = '${PATH}solid/rounded/svg/fi-sr-';
