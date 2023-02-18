@@ -1,15 +1,20 @@
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:flutter/widgets.dart';
+
 /// FUI is a widget that allows you to use the icons from the FUI Kit.
 class FUI extends StatelessWidget {
   /// The file name of the icon.
   final String file;
+
   /// The width of the icon.
   final double? width;
+
   /// The height of the icon.
   final double? height;
+
   /// The color of the icon.
   final Color? color;
+
   const FUI(
       {Key? key, required this.file, this.width, this.height = 30, this.color})
       : super(key: key);

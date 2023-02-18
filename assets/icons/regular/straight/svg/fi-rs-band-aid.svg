@@ -1,24 +1,14 @@
-<svg width="32" height="27" viewBox="0 0 32 27" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_403_3754)" filter="url(#filter0_d_403_3754)">
-<path d="M14 11C14.5523 11 15 10.5523 15 10C15 9.44771 14.5523 9 14 9C13.4477 9 13 9.44771 13 10C13 10.5523 13.4477 11 14 11Z" fill="#374957"/>
-<path d="M17.9999 11C18.5521 11 18.9999 10.5523 18.9999 10C18.9999 9.44771 18.5521 9 17.9999 9C17.4476 9 16.9998 9.44771 16.9998 10C16.9998 10.5523 17.4476 11 17.9999 11Z" fill="#374957"/>
-<path d="M14 15.0001C14.5523 15.0001 15 14.5524 15 14.0001C15 13.4478 14.5523 13.0001 14 13.0001C13.4477 13.0001 13 13.4478 13 14.0001C13 14.5524 13.4477 15.0001 14 15.0001Z" fill="#374957"/>
-<path d="M17.9999 15.0001C18.5521 15.0001 18.9999 14.5524 18.9999 14.0001C18.9999 13.4478 18.5521 13.0001 17.9999 13.0001C17.4476 13.0001 16.9998 13.4478 16.9998 14.0001C16.9998 14.5524 17.4476 15.0001 17.9999 15.0001Z" fill="#374957"/>
-<path d="M4 4.99988V18.9999H28V4.99988H4ZM21 6.99988V16.9999H11V6.99988H21ZM6 6.99988H9V16.9999H6V6.99988ZM26 16.9999H23V6.99988H26V16.9999Z" fill="#374957"/>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_403_3754)">
+<path d="M10 11C10.5523 11 11 10.5523 11 10C11 9.44771 10.5523 9 10 9C9.44771 9 9 9.44771 9 10C9 10.5523 9.44771 11 10 11Z" fill="#374957"/>
+<path d="M13.9999 11C14.5521 11 14.9999 10.5523 14.9999 10C14.9999 9.44771 14.5521 9 13.9999 9C13.4476 9 12.9998 9.44771 12.9998 10C12.9998 10.5523 13.4476 11 13.9999 11Z" fill="#374957"/>
+<path d="M10 15.0001C10.5523 15.0001 11 14.5524 11 14.0001C11 13.4478 10.5523 13.0001 10 13.0001C9.44771 13.0001 9 13.4478 9 14.0001C9 14.5524 9.44771 15.0001 10 15.0001Z" fill="#374957"/>
+<path d="M13.9999 15.0001C14.5521 15.0001 14.9999 14.5524 14.9999 14.0001C14.9999 13.4478 14.5521 13.0001 13.9999 13.0001C13.4476 13.0001 12.9998 13.4478 12.9998 14.0001C12.9998 14.5524 13.4476 15.0001 13.9999 15.0001Z" fill="#374957"/>
+<path d="M0 4.99988V18.9999H24V4.99988H0ZM17 6.99988V16.9999H7V6.99988H17ZM2 6.99988H5V16.9999H2V6.99988ZM22 16.9999H19V6.99988H22V16.9999Z" fill="#374957"/>
 </g>
 <defs>
-<filter id="filter0_d_403_3754" x="0" y="0" width="32" height="32" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset dy="4"/>
-<feGaussianBlur stdDeviation="2"/>
-<feComposite in2="hardAlpha" operator="out"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_403_3754"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_403_3754" result="shape"/>
-</filter>
 <clipPath id="clip0_403_3754">
-<rect width="24" height="24" fill="white" transform="translate(4)"/>
+<rect width="24" height="24" fill="white"/>
 </clipPath>
 </defs>
 </svg>

@@ -1,3 +1,15 @@
+## 1.0.7
+- Fix: size icon regular straight
+[2023-19-02 02:32:00]: # Path: CHANGELOG.md
+
+## 1.0.6
+- Fix: icons without shadow
+[2023-19-02 02:02:00]: # Path: CHANGELOG.md
+
+## 1.0.5
+- Fix: flutter format
+[2023-18-02 03:51:00]: # Path: CHANGELOG.md
+
 ## 1.0.4
 - Fix: repository url
 [2023-18-02 03:20:00]: # Path: CHANGELOG.md

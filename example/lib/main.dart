@@ -1,11 +1,15 @@
 import 'package:flutter/material.dart';
+/// Import the package fui_kit
 import 'package:fui_kit/fui_kit.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
+/// This Widget is the main application widget example.
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
