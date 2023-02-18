@@ -1,8 +1,8 @@
-
 // ignore_for_file: constant_identifier_names
 
 import 'package:fui_kit/models/svg_icon_model.dart';
 
+/// FUIcons is a class that allows you to use the icons from the FUI Kit.
 class FUIcons {
   static const PATH = "assets/icons/";
   static const REGULAR_ROUNDED = '${PATH}regular/rounded/svg/fi-rr-';
@@ -12,8 +12,9 @@ class FUIcons {
   static const BOLD_STRAIGHT = '${PATH}bold/straight/svg/fi-bs-';
   static const SOLID_STRAIGHT = '${PATH}solid/straight/svg/fi-ss-';
 
+  /// FUIcons.regularRounded is a class that allows you to use the icons from the FUI Kit.
   static SvgIcon regularRounded = SvgIcon(
-      add:"${REGULAR_ROUNDED}add.svg",
+      add: "${REGULAR_ROUNDED}add.svg",
       addressBook: "${REGULAR_ROUNDED}address-book.svg",
       alarmClock: "${REGULAR_ROUNDED}alarm-clock.svg",
       alignCenter: "${REGULAR_ROUNDED}align-center.svg",
@@ -363,8 +364,8 @@ class FUIcons {
       receipt: "${REGULAR_ROUNDED}receipt.svg",
       recordVinyl: "${REGULAR_ROUNDED}record-vinyl.svg",
       rectabgleVertical: "${REGULAR_ROUNDED}rectabgle-vertical.svg",
-      rectangleHorizontal:"${REGULAR_ROUNDED}rectangle-horizontal.svg",
-      rectanglePanoramic:"${REGULAR_ROUNDED}rectangle-panoramic.svg",
+      rectangleHorizontal: "${REGULAR_ROUNDED}rectangle-horizontal.svg",
+      rectanglePanoramic: "${REGULAR_ROUNDED}rectangle-panoramic.svg",
       recycle: "${REGULAR_ROUNDED}recycle.svg",
       redoAlt: "${REGULAR_ROUNDED}redo-alt.svg",
       redo: "${REGULAR_ROUNDED}redo.svg",
@@ -510,10 +511,11 @@ class FUIcons {
       world: "${REGULAR_ROUNDED}world.svg",
       yen: "${REGULAR_ROUNDED}yen.svg",
       zoomIn: "${REGULAR_ROUNDED}zoom-in.svg",
-      zoomOut: "${REGULAR_ROUNDED}zoom-out.svg"
-  );
+      zoomOut: "${REGULAR_ROUNDED}zoom-out.svg");
+
+  /// Bold Rounded Icons
   static SvgIcon boldRounded = SvgIcon(
-      add:"${BOLD_ROUNDED}add.svg",
+      add: "${BOLD_ROUNDED}add.svg",
       addressBook: "${BOLD_ROUNDED}address-book.svg",
       alarmClock: "${BOLD_ROUNDED}alarm-clock.svg",
       alignCenter: "${BOLD_ROUNDED}align-center.svg",
@@ -863,8 +865,8 @@ class FUIcons {
       receipt: "${BOLD_ROUNDED}receipt.svg",
       recordVinyl: "${BOLD_ROUNDED}record-vinyl.svg",
       rectabgleVertical: "${BOLD_ROUNDED}rectabgle-vertical.svg",
-      rectangleHorizontal:"${BOLD_ROUNDED}rectangle-horizontal.svg",
-      rectanglePanoramic:"${BOLD_ROUNDED}rectangle-panoramic.svg",
+      rectangleHorizontal: "${BOLD_ROUNDED}rectangle-horizontal.svg",
+      rectanglePanoramic: "${BOLD_ROUNDED}rectangle-panoramic.svg",
       recycle: "${BOLD_ROUNDED}recycle.svg",
       redoAlt: "${BOLD_ROUNDED}redo-alt.svg",
       redo: "${BOLD_ROUNDED}redo.svg",
@@ -1010,10 +1012,11 @@ class FUIcons {
       world: "${BOLD_ROUNDED}world.svg",
       yen: "${BOLD_ROUNDED}yen.svg",
       zoomIn: "${BOLD_ROUNDED}zoom-in.svg",
-      zoomOut: "${BOLD_ROUNDED}zoom-out.svg"
-  );
+      zoomOut: "${BOLD_ROUNDED}zoom-out.svg");
+
+  /// Solid Rounded Icons
   static SvgIcon solidRounded = SvgIcon(
-      add:"${SOLID_ROUNDED}add.svg",
+      add: "${SOLID_ROUNDED}add.svg",
       addressBook: "${SOLID_ROUNDED}address-book.svg",
       alarmClock: "${SOLID_ROUNDED}alarm-clock.svg",
       alignCenter: "${SOLID_ROUNDED}align-center.svg",
@@ -1363,8 +1366,8 @@ class FUIcons {
       receipt: "${SOLID_ROUNDED}receipt.svg",
       recordVinyl: "${SOLID_ROUNDED}record-vinyl.svg",
       rectabgleVertical: "${SOLID_ROUNDED}rectabgle-vertical.svg",
-      rectangleHorizontal:"${SOLID_ROUNDED}rectangle-horizontal.svg",
-      rectanglePanoramic:"${SOLID_ROUNDED}rectangle-panoramic.svg",
+      rectangleHorizontal: "${SOLID_ROUNDED}rectangle-horizontal.svg",
+      rectanglePanoramic: "${SOLID_ROUNDED}rectangle-panoramic.svg",
       recycle: "${SOLID_ROUNDED}recycle.svg",
       redoAlt: "${SOLID_ROUNDED}redo-alt.svg",
       redo: "${SOLID_ROUNDED}redo.svg",
@@ -1510,10 +1513,11 @@ class FUIcons {
       world: "${SOLID_ROUNDED}world.svg",
       yen: "${SOLID_ROUNDED}yen.svg",
       zoomIn: "${SOLID_ROUNDED}zoom-in.svg",
-      zoomOut: "${SOLID_ROUNDED}zoom-out.svg"
-  );
+      zoomOut: "${SOLID_ROUNDED}zoom-out.svg");
+
+  /// Regular Straight Icons
   static SvgIcon regularStraight = SvgIcon(
-      add:"${REGULAR_STRAIGHT}add.svg",
+      add: "${REGULAR_STRAIGHT}add.svg",
       addressBook: "${REGULAR_STRAIGHT}address-book.svg",
       alarmClock: "${REGULAR_STRAIGHT}alarm-clock.svg",
       alignCenter: "${REGULAR_STRAIGHT}align-center.svg",
@@ -1863,8 +1867,8 @@ class FUIcons {
       receipt: "${REGULAR_STRAIGHT}receipt.svg",
       recordVinyl: "${REGULAR_STRAIGHT}record-vinyl.svg",
       rectabgleVertical: "${REGULAR_STRAIGHT}rectabgle-vertical.svg",
-      rectangleHorizontal:"${REGULAR_STRAIGHT}rectangle-horizontal.svg",
-      rectanglePanoramic:"${REGULAR_STRAIGHT}rectangle-panoramic.svg",
+      rectangleHorizontal: "${REGULAR_STRAIGHT}rectangle-horizontal.svg",
+      rectanglePanoramic: "${REGULAR_STRAIGHT}rectangle-panoramic.svg",
       recycle: "${REGULAR_STRAIGHT}recycle.svg",
       redoAlt: "${REGULAR_STRAIGHT}redo-alt.svg",
       redo: "${REGULAR_STRAIGHT}redo.svg",
@@ -2010,10 +2014,11 @@ class FUIcons {
       world: "${REGULAR_STRAIGHT}world.svg",
       yen: "${REGULAR_STRAIGHT}yen.svg",
       zoomIn: "${REGULAR_STRAIGHT}zoom-in.svg",
-      zoomOut: "${REGULAR_STRAIGHT}zoom-out.svg"
-  );
+      zoomOut: "${REGULAR_STRAIGHT}zoom-out.svg");
+
+  /// Bold Straight Icons
   static SvgIcon boldStraight = SvgIcon(
-      add:"${BOLD_STRAIGHT}add.svg",
+      add: "${BOLD_STRAIGHT}add.svg",
       addressBook: "${BOLD_STRAIGHT}address-book.svg",
       alarmClock: "${BOLD_STRAIGHT}alarm-clock.svg",
       alignCenter: "${BOLD_STRAIGHT}align-center.svg",
@@ -2363,8 +2368,8 @@ class FUIcons {
       receipt: "${BOLD_STRAIGHT}receipt.svg",
       recordVinyl: "${BOLD_STRAIGHT}record-vinyl.svg",
       rectabgleVertical: "${BOLD_STRAIGHT}rectabgle-vertical.svg",
-      rectangleHorizontal:"${BOLD_STRAIGHT}rectangle-horizontal.svg",
-      rectanglePanoramic:"${BOLD_STRAIGHT}rectangle-panoramic.svg",
+      rectangleHorizontal: "${BOLD_STRAIGHT}rectangle-horizontal.svg",
+      rectanglePanoramic: "${BOLD_STRAIGHT}rectangle-panoramic.svg",
       recycle: "${BOLD_STRAIGHT}recycle.svg",
       redoAlt: "${BOLD_STRAIGHT}redo-alt.svg",
       redo: "${BOLD_STRAIGHT}redo.svg",
@@ -2510,10 +2515,11 @@ class FUIcons {
       world: "${BOLD_STRAIGHT}world.svg",
       yen: "${BOLD_STRAIGHT}yen.svg",
       zoomIn: "${BOLD_STRAIGHT}zoom-in.svg",
-      zoomOut: "${BOLD_STRAIGHT}zoom-out.svg"
-  );
+      zoomOut: "${BOLD_STRAIGHT}zoom-out.svg");
+
+  /// Solid Straight Icons
   static SvgIcon solidStraight = SvgIcon(
-      add:"${SOLID_STRAIGHT}add.svg",
+      add: "${SOLID_STRAIGHT}add.svg",
       addressBook: "${SOLID_STRAIGHT}address-book.svg",
       alarmClock: "${SOLID_STRAIGHT}alarm-clock.svg",
       alignCenter: "${SOLID_STRAIGHT}align-center.svg",
@@ -2863,8 +2869,8 @@ class FUIcons {
       receipt: "${SOLID_STRAIGHT}receipt.svg",
       recordVinyl: "${SOLID_STRAIGHT}record-vinyl.svg",
       rectabgleVertical: "${SOLID_STRAIGHT}rectabgle-vertical.svg",
-      rectangleHorizontal:"${SOLID_STRAIGHT}rectangle-horizontal.svg",
-      rectanglePanoramic:"${SOLID_STRAIGHT}rectangle-panoramic.svg",
+      rectangleHorizontal: "${SOLID_STRAIGHT}rectangle-horizontal.svg",
+      rectanglePanoramic: "${SOLID_STRAIGHT}rectangle-panoramic.svg",
       recycle: "${SOLID_STRAIGHT}recycle.svg",
       redoAlt: "${SOLID_STRAIGHT}redo-alt.svg",
       redo: "${SOLID_STRAIGHT}redo.svg",
@@ -3010,6 +3016,5 @@ class FUIcons {
       world: "${SOLID_STRAIGHT}world.svg",
       yen: "${SOLID_STRAIGHT}yen.svg",
       zoomIn: "${SOLID_STRAIGHT}zoom-in.svg",
-      zoomOut: "${SOLID_STRAIGHT}zoom-out.svg"
-  );
+      zoomOut: "${SOLID_STRAIGHT}zoom-out.svg");
 }

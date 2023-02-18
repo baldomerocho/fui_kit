@@ -1,7 +1,9 @@
 name: fui_kit
-description: +450 icons SVG with 5 themes or variables
-version: 1.0.1
+description: Our library offers more than 450 vector SVG icons in 5 different styles or themes, giving you a range of options to choose from and the flexibility to use them in a variety of design contexts.
+version: 1.0.4
 homepage: https://wp.me/pd2qu8-hH
+repository: https://github.com/baldomerocho/fui_kit
+issue_tracker: https://github.com/baldomerocho/fui_kit/issues
 
 environment:
   sdk: '>=2.18.4 <3.0.0'
