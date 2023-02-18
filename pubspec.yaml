@@ -26,12 +26,12 @@ flutter:
   # To add assets to your package, add an assets section, like this:
   assets:
 #    my assets is shared with the app, lib/assets...
-    - assets/icons/regular/rounded/svg/
-    - assets/icons/bold/rounded/svg/
-    - assets/icons/solid/rounded/svg/
-    - assets/icons/regular/straight/svg/
-    - assets/icons/bold/straight/svg/
-    - assets/icons/solid/straight/svg/
+    - icons/bold/rounded/svg/
+    - icons/bold/straight/svg/
+    - icons/regular/rounded/svg/
+    - icons/regular/straight/svg/
+    - icons/solid/rounded/svg/
+    - icons/solid/straight/svg/
   # assets:
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
