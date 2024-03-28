@@ -1,12 +1,12 @@
 name: fui_kit
 description: Our library offers more than 450 vector SVG icons in 6 different styles or themes.
-version: 1.0.7
+version: 2.0.0
 homepage: https://wp.me/pd2qu8-hH
 repository: https://github.com/baldomerocho/fui_kit
 issue_tracker: https://github.com/baldomerocho/fui_kit/issues
 
 environment:
-  sdk: '>=2.18.4 <3.0.0'
+  sdk: '>=3.0.0 <4.0.0'
   flutter: ">=1.17.0"
 
 dependencies:

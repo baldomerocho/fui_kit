@@ -29,3 +29,8 @@
 ## 1.0.0
 - Initial release
 [2022-15-31 15:00:00]: # Path: CHANGELOG.md
+
+## 2.0.0
+- Update: flutter 2.10.0
+[2022-15-31 15:00:00]: # Path: CHANGELOG.md
+- Refactor code and documentation

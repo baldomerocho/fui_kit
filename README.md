@@ -19,9 +19,9 @@ FUI Kit is an easy-to-install Flutter library that contains 498 SVG icons. With 
 ## Installation
 
 To use FUI Kit in your Flutter project, add the following to your pubspec.yaml file:
-```
+```yaml
 dependencies:
-fui_kit: <latest_version>
+    fui_kit: <latest_version>
 ```
 
 Then, run flutter packages get to install the library.
@@ -30,47 +30,70 @@ Then, run flutter packages get to install the library.
 
 To use an icon from FUI Kit in your Flutter project, simply use the FUI() widget, like so:
 
+```dart
+import 'package:flutter/material.dart';
+import 'package:fui_kit/fui_kit.dart';
+
+class FuiKitPage extends StatefulWidget {
+  const FuiKitPage({super.key});
+
+  @override
+  State<FuiKitPage> createState() => _FuiKitPageState();
+}
+
+class _FuiKitPageState extends State<FuiKitPage> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Fui Kit Example'),
+      ),
+      body: Center(
+        child: FUI(RegularRounded.ADD, color: Colors.blue, height: 30,),
+      ),
+    );
+  }
+}
 ```
-FUI(file: FUIcons.solidRounded.bookmark,color: Colors.amber)
-// The FUI() widget takes two named arguments:
 
 file: This is the path to the icon you want to use.
 color: This is the color you want to apply to the icon.
-```
+
 You can find a list of all available icons and their corresponding paths in the API reference.
 
 ## Examples
 
 Here are some examples of how you can use FUI Kit in your Flutter project:
 
-```
+```dart
 // Use a solid rounded icon
 FUI(
-	file: FUIcons.solidRounded.bookmark,
+	SolidRounded.BOOKMARK,
 	color: Colors.amber, // optional
 	with:40, // optional
 	height:40 // optional
 )
 ```
 
-```
+```dart
 // Use a solid square icon
-FUI(file: FUIcons.solidSquare.heart,color: Colors.red)
+FUI(SolidRounded.HEART,color: Colors.red)
 
 // Use a regular rounded icon
-FUI(file: FUIcons.regularRounded.user,color: Colors.blue)
+FUI(RegularRounded.USER,color: Colors.blue)
 
-// Use a regular square icon
-FUI(file: FUIcons.regularSquare.comment,color: Colors.green)
+// Use a regular solid icon
+FUI(RegularSolid.COMMENT,color: Colors.green)
 ```
-````
+
+```dart
 import 'package:fui_kit/fui_kit.dart';
 
 class MyWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return FUI(
-      file: FUIcons.solidRounded.bookmark,
+      SolidRounded.BOOKMARK,
       color: Colors.amber,
     );
   }
@@ -79,12 +102,12 @@ class MyWidget extends StatelessWidget {
 ````
 ## Variants
 
--  	Regular Rounded: `FUIcons.regularRounded.bookmark`
--   Regular Straight: `FUIcons.regularRounded.bookmark`
--   Bold Rounded: `FUIcons.boldRounded.bookmark`
--   Bold Straight: `FUIcons.boldStraight.bookmark` 
--   Solid Rounded: `FUIcons.solidRegular.bookmark` 
--   Solid Straight: `FUIcons.solidRegular.bookmark` 
+-  	Regular Rounded: `RegularRounded.BOOKMARK`
+-   Regular Straight: `RegularRounded.BOOKMARK`
+-   Bold Rounded: `BoldRounded.BOOKMARK`
+-   Bold Straight: `BoldStraight.BOOKMARK` 
+-   Solid Rounded: `SolidRegular.BOOKMARK` 
+-   Solid Straight: `SolidStraight.BOOKMARK` 
 
 ## List icons
 [See all icons](https://wp.me/pd2qu8-hH)

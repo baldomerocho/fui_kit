@@ -1,5 +1,5 @@
+import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:flutter/widgets.dart';
 
 /// FUI is a widget that allows you to use the icons from the FUI Kit.
 class FUI extends StatelessWidget {
@@ -7,40 +7,42 @@ class FUI extends StatelessWidget {
   final String file;
 
   /// The width of the icon.
-  final double? width;
+  final double width;
 
   /// The height of the icon.
-  final double? height;
+  final double height;
 
   /// The color of the icon.
   final Color? color;
 
-  const FUI(
-      {Key? key, required this.file, this.width, this.height = 30, this.color})
-      : super(key: key);
+  /// Icons Types:
+  /// - BoldRounded
+  /// - BoldStraight
+  /// - RegularRounded
+  /// - RegularStraight
+  /// - SolidRounded
+  /// - SolidStraight
+  ///
+  /// Example:
+  /// ```dart
+  /// FUI(BoldRounded.ADD)
+  /// ```
+  ///
+  const FUI(this.file,
+      {Key? key, this.width = 30, this.height = 30, this.color});
 
   @override
   Widget build(BuildContext context) {
-    if (width == null && height == null && color == null) {
-      return SvgPicture.asset(file, package: 'fui_kit');
-    } else if (width == null && height == null) {
-      return SvgPicture.asset(file, color: color, package: 'fui_kit');
-    } else if (width == null && color == null) {
-      return SvgPicture.asset(file, height: height, package: 'fui_kit');
-    } else if (height == null && color == null) {
-      return SvgPicture.asset(file, width: width, package: 'fui_kit');
-    } else if (width == null) {
-      return SvgPicture.asset(file,
-          height: height, color: color, package: 'fui_kit');
-    } else if (height == null) {
-      return SvgPicture.asset(file,
-          width: width, color: color, package: 'fui_kit');
-    } else if (color == null) {
-      return SvgPicture.asset(file,
-          width: width, height: height, package: 'fui_kit');
-    } else {
-      return SvgPicture.asset(file,
-          width: width, height: height, color: color, package: 'fui_kit');
-    }
+    final theme = Theme.of(context).brightness;
+    final nullColor =
+        theme == Brightness.dark ? Colors.grey.shade400 : Colors.grey.shade600;
+
+    return SvgPicture.asset(
+      file,
+      package: 'fui_kit',
+      width: width,
+      height: height,
+      color: color ?? nullColor,
+    );
   }
 }

@@ -1,4 +1,7 @@
+library fui_kit;
+
 import 'package:flutter/material.dart';
+
 /// Import the package fui_kit
 import 'package:fui_kit/fui_kit.dart';
 
@@ -20,8 +23,7 @@ class MyApp extends StatelessWidget {
         body: Center(
           child: IconButton(
             onPressed: () {},
-            icon: FUI(
-                file: FUIcons.regularRounded.commentAlt, color: Colors.white),
+            icon: FUI(BoldRounded.ADD),
           ),
         ),
       ),
