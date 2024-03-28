@@ -99,7 +99,7 @@ class MyWidget extends StatelessWidget {
   }
 }
 
-````
+```
 ## Variants
 
 -  	Regular Rounded: `RegularRounded.BOOKMARK`
