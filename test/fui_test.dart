@@ -36,4 +36,15 @@ void main() {
     final svgPicture = widgetTester.widget<SvgPicture>(find.byType(SvgPicture));
     expect(svgPicture.height, 50);
   });
+
+  testWidgets("FUI should render a SvgPicture with the null color",
+      (WidgetTester widgetTester) async {
+    await widgetTester.pumpWidget(const FUI(
+      RegularRounded.ADD,
+      height: 50,
+    ));
+    final svgPicture = widgetTester.widget<SvgPicture>(find.byType(SvgPicture));
+    expect(svgPicture.colorFilter,
+        ColorFilter.mode(Colors.grey.shade600, BlendMode.srcIn));
+  });
 }
