@@ -34,3 +34,8 @@
 - Update: flutter 2.10.0
 [2022-15-31 15:00:00]: # Path: CHANGELOG.md
 - Refactor code and documentation
+
+## 2.0.1
+- Fix: flutter 2.10.0
+[2022-15-31 15:00:00]: # Path: CHANGELOG.md
+- Upgrade dependencies and ignore snack_case

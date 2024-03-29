@@ -10,3 +10,7 @@
 
 dart format lib/maps
 dart analyze lib/maps
+
+# set description: in pubspec.yaml, count the number of icons
+
+
