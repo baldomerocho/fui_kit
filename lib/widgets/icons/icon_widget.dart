@@ -29,7 +29,7 @@ class FUI extends StatelessWidget {
   /// ```
   ///
   const FUI(this.file,
-      {Key? key, this.width = 30, this.height = 30, this.color});
+      {super.key, this.width = 30, this.height = 30, this.color});
 
   @override
   Widget build(BuildContext context) {
@@ -37,12 +37,12 @@ class FUI extends StatelessWidget {
     final nullColor =
         theme == Brightness.dark ? Colors.grey.shade400 : Colors.grey.shade600;
 
-    return SvgPicture.asset(
-      file,
-      package: 'fui_kit',
-      width: width,
-      height: height,
-      color: color ?? nullColor,
-    );
+    return SvgPicture.asset(file,
+        package: 'fui_kit',
+        width: width,
+        height: height,
+        colorFilter: color != null
+            ? ColorFilter.mode(color!, BlendMode.srcIn)
+            : ColorFilter.mode(nullColor, BlendMode.srcIn));
   }
 }

@@ -1,4 +1,8 @@
 # FUI Flat UI Kit
+[![codecov](https://codecov.io/gh/baldomerocho/fui_kit/graph/badge.svg?token=HQG73V2A5X)](https://codecov.io/gh/baldomerocho/fui_kit)
+
+[![Flutter Test And Publish pub.dev](https://github.com/baldomerocho/fui_kit/actions/workflows/test.yaml/badge.svg)](https://github.com/baldomerocho/fui_kit/actions/workflows/test.yaml)
+
 My package is called "fui" and it is a library of SVG icons for the Flutter framework.
 This library includes 498 open source icons provided by [flaticon.com](https://www.flaticon.com/uicons/interface-icons). 
 I have named this package "fui" for Flat Uicons, as these icons are flat and easy to use in any design.
@@ -21,7 +25,7 @@ FUI Kit is an easy-to-install Flutter library that contains 498 SVG icons. With 
 To use FUI Kit in your Flutter project, add the following to your pubspec.yaml file:
 ```yaml
 dependencies:
-    fui_kit: <latest_version>
+    fui_kit: ^2.0.0
 ```
 
 Then, run flutter packages get to install the library.

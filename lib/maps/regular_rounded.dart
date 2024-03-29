@@ -1,8 +1,10 @@
+// ignore_for_file: constant_identifier_names
+
 /*
 
 Don't modify this file manually.
 This file is generated automatically
-by datogedon.com on Thu Mar 28 16:16:57 CST 2024.
+by datogedon.com on Thu Mar 28 23:01:12 CST 2024.
 
 */
 

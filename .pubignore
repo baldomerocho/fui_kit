@@ -2,3 +2,4 @@
 .fvm/
 .idea/
 .fvmrc
+coverage/

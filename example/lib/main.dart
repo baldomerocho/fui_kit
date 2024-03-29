@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
         body: Center(
           child: IconButton(
             onPressed: () {},
-            icon: FUI(BoldRounded.ADD),
+            icon: const FUI(BoldRounded.ADD),
           ),
         ),
       ),

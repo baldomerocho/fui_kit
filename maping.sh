@@ -7,3 +7,6 @@
 
 ./generate_icons_map.sh lib/maps/solid_rounded.dart SolidRounded assets/icons/solid/rounded/svg/ "fi-sr-"
 ./generate_icons_map.sh lib/maps/solid_straight.dart SolidStraight assets/icons/solid/straight/svg/ "fi-ss-"
+
+dart format lib/maps
+dart analyze lib/maps

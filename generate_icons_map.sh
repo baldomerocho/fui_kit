@@ -32,6 +32,8 @@ fi
 
 # Crear el archivo de destino y escribir el encabezado
 cat <<EOF > "$dest_file"
+// ignore_for_file: constant_identifier_names
+
 /*
 
 Don't modify this file manually.
