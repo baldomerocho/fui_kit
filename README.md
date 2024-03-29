@@ -21,7 +21,7 @@ FUI Kit is an easy-to-install Flutter library that contains 498 SVG icons. With 
 To use FUI Kit in your Flutter project, add the following to your pubspec.yaml file:
 ```yaml
 dependencies:
-    fui_kit: <latest_version>
+    fui_kit: ^2.0.0
 ```
 
 Then, run flutter packages get to install the library.
