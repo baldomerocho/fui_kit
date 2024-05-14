@@ -39,3 +39,8 @@
 - Fix: flutter 2.10.0
 [2022-15-31 15:00:00]: # Path: CHANGELOG.md
 - Upgrade dependencies and ignore snack_case
+
+## 2.0.2
+- Fix: flutter 2.10.0
+[2024-05-14 11:00:00]: # Path: CHANGELOG.md
+- clear unused code
