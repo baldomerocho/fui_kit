@@ -61,6 +61,10 @@ jobs:
           channel: stable
           cache: true
 
+      # pana needs the webp CLI tools to validate pubspec screenshots.
+      - name: Install webp tools
+        run: sudo apt-get update -q && sudo apt-get install -yq webp
+
       - name: Install pana
         run: dart pub global activate pana
 
