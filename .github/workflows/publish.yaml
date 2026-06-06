@@ -1,0 +1,42 @@
+# Publishes to pub.dev when a version tag (v1.2.3) is pushed.
+#
+# Requires one-time setup on https://pub.dev/packages/fui_kit/admin:
+# enable "Automated publishing" from GitHub Actions for the
+# baldomerocho/fui_kit repository with tag pattern v{{version}}.
+name: Publish to pub.dev
+
+on:
+  push:
+    tags:
+      - 'v[0-9]+.[0-9]+.[0-9]+*'
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write # required for pub.dev OIDC authentication
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+
+      # Exchanges the GitHub OIDC token for a temporary pub.dev credential.
+      - name: Set up pub.dev credentials
+        uses: dart-lang/setup-dart@v1
+
+      - name: Install dependencies
+        run: flutter pub get
+
+      - name: Run tests
+        run: flutter test
+
+      - name: Publish (dry run)
+        run: flutter pub publish --dry-run
+
+      - name: Publish
+        run: flutter pub publish --force

@@ -1,13 +1,27 @@
 name: fui_kit
-description: Our library offers more than 498 vector SVG icons in 6 different styles or themes.
-version: 2.0.2
-homepage: https://wp.me/pd2qu8-hH
+description: >-
+  Flat UI icon pack for Flutter: 2,988 SVG icons (498 icons in 6 styles —
+  regular, bold and solid, rounded or straight) based on Flaticon UIcons.
+  Themeable and accessible.
+version: 2.1.0
+homepage: https://baldomerocho.github.io/fui_kit/
 repository: https://github.com/baldomerocho/fui_kit
 issue_tracker: https://github.com/baldomerocho/fui_kit/issues
 
+topics:
+  - icons
+  - svg
+  - ui
+  - icon-pack
+  - flat-icons
+
+screenshots:
+  - description: Gallery of fui_kit flat SVG icons in the 6 available styles.
+    path: doc/images/showcase.webp
+
 environment:
   sdk: '>=3.0.0 <4.0.0'
-  flutter: ">=1.17.0"
+  flutter: '>=3.10.0'
 
 dependencies:
   flutter:
@@ -17,17 +31,10 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^4.0.0
+  flutter_lints: ^6.0.0
 
-# For information on the generic Dart part of this file, see the
-# following page: https://dart.dev/tools/pub/pubspec
-
-# The following section is specific to Flutter packages.
 flutter:
-
-  # To add assets to your package, add an assets section, like this:
   assets:
-#    my assets is shared with the app, lib/assets...
     - assets/icons/bold/rounded/svg/
     - assets/icons/bold/straight/svg/
     - assets/icons/regular/rounded/svg/

@@ -1,9 +1,11 @@
 *.sh
 .fvm/
-.idea/
 .fvmrc
+.idea/
 coverage/
 build/
+doc/api/
+tool/
 android/
 ios/
 web/
